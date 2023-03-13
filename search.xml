@@ -20,11 +20,11 @@
 <p>这个教程用的是gitee,但是差不多，如果不清楚github怎么弄，可以搜关键词PicGo、github，就会有很多教程。</p>
 <p>反正顺序是：先建仓库，再用picgo连github，最后typora调用picgo。</p>
 <p>效果就是，直接在本地插入图片，它就会自动上传到你的图床，非常方便。 </p>
-<h4 id="其实我建议gitee-那玩意在国内，快很多，但是那东西得实名认证，我几天了还没通过，所以等不及了想玩玩。但毕竟是国外的，有时候会很慢。而且，保不齐哪天就制裁你呢。。。"><a href="#其实我建议gitee-那玩意在国内，快很多，但是那东西得实名认证，我几天了还没通过，所以等不及了想玩玩。但毕竟是国外的，有时候会很慢。而且，保不齐哪天就制裁你呢。。。" class="headerlink" title="其实我建议gitee,那玩意在国内，快很多，但是那东西得实名认证，我几天了还没通过，所以等不及了想玩玩。但毕竟是国外的，有时候会很慢。而且，保不齐哪天就制裁你呢。。。"></a><strong>其实我建议gitee,那玩意在国内，快很多，但是那东西得实名认证，我几天了还没通过，所以等不及了想玩玩。但毕竟是国外的，有时候会很慢。而且，保不齐哪天就制裁你呢。。。</strong></h4><h2 id="常见错误"><a href="#常见错误" class="headerlink" title="常见错误"></a>常见错误</h2><ol>
+<h4 id="其实我建议gitee-那玩意在国内，快很多，但是那东西得实名认证，我几天了还没通过，所以等不及了想玩玩。但github毕竟是老美的，有时候会很慢。而且，保不齐哪天就制裁你呢。。。"><a href="#其实我建议gitee-那玩意在国内，快很多，但是那东西得实名认证，我几天了还没通过，所以等不及了想玩玩。但github毕竟是老美的，有时候会很慢。而且，保不齐哪天就制裁你呢。。。" class="headerlink" title="其实我建议gitee,那玩意在国内，快很多，但是那东西得实名认证，我几天了还没通过，所以等不及了想玩玩。但github毕竟是老美的，有时候会很慢。而且，保不齐哪天就制裁你呢。。。"></a><strong>其实我建议gitee,那玩意在国内，快很多，但是那东西得实名认证，我几天了还没通过，所以等不及了想玩玩。但github毕竟是老美的，有时候会很慢。而且，保不齐哪天就制裁你呢。。。</strong></h4><h2 id="常见错误"><a href="#常见错误" class="headerlink" title="常见错误"></a>常见错误</h2><ol>
 <li><p>如果出现这个 kex_exchange_identification: Connection closed by remote host<br> Connection closed by 20.205.243.166 port 22<br> fatal: Could not read from remote repository.</p>
 <p> Please make sure you have the correct access rights<br> and the repository exists.</p>
 <p> 错误，很可能是vpn占用了22端口，由于git的ssh也是走的22端口，所以导致冲突，<a href="https://blog.csdn.net/flower_48237/article/details/126967878">参考链接</a></p>
-<p> 。我觉得最简单的解决办法就是把代理软件关掉试试。</p>
+<p> 。我觉得最简单的解决办法就是把代理软件关掉试试，不过这样网络就会慢。</p>
 </li>
 </ol>
 <p><img src="https://raw.githubusercontent.com/BerryAllen-sense/allen_imgbed/main/202303122246553.png" alt="image-20230312182807481"></p>
