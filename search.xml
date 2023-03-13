@@ -1,11 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>测试文章</title>
-    <url>/2023/03/11/%E6%B5%8B%E8%AF%95%E6%96%87%E7%AB%A0/</url>
-    <content><![CDATA[]]></content>
-  </entry>
-  <entry>
     <title>Hello World</title>
     <url>/2023/03/11/hello-world/</url>
     <content><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
@@ -43,7 +38,7 @@
 <p>这个教程用的是gitee,但是差不多，如果不清楚github怎么弄，可以搜关键词PicGo、github，就会有很多教程。</p>
 <p>反正顺序是：先建仓库，再用picgo连github，最后typora调用picgo。</p>
 <p>效果就是，直接在本地插入图片，它就会自动上传到你的图床，非常方便。 </p>
-<h4 id="其实我最开始是打算用gitee的-那玩意在国内，快很多，但是那东西得实名认证，我几天了还没通过，所以等不及了想玩玩，就用github。但毕竟是国外的，有时候会很慢。而且想到老美总制裁咱们，所以现在我现在干啥基本上都优先用国内的东西，或者最少在国内得有个备胎，保不齐哪天github就不让你用了呢。"><a href="#其实我最开始是打算用gitee的-那玩意在国内，快很多，但是那东西得实名认证，我几天了还没通过，所以等不及了想玩玩，就用github。但毕竟是国外的，有时候会很慢。而且想到老美总制裁咱们，所以现在我现在干啥基本上都优先用国内的东西，或者最少在国内得有个备胎，保不齐哪天github就不让你用了呢。" class="headerlink" title="其实我最开始是打算用gitee的,那玩意在国内，快很多，但是那东西得实名认证，我几天了还没通过，所以等不及了想玩玩，就用github。但毕竟是国外的，有时候会很慢。而且想到老美总制裁咱们，所以现在我现在干啥基本上都优先用国内的东西，或者最少在国内得有个备胎，保不齐哪天github就不让你用了呢。"></a><strong>其实我最开始是打算用gitee的,那玩意在国内，快很多，但是那东西得实名认证，我几天了还没通过，所以等不及了想玩玩，就用github。但毕竟是国外的，有时候会很慢。而且想到老美总制裁咱们，所以现在我现在干啥基本上都优先用国内的东西，或者最少在国内得有个备胎，保不齐哪天github就不让你用了呢。</strong></h4><h2 id="常见错误"><a href="#常见错误" class="headerlink" title="常见错误"></a>常见错误</h2><ol>
+<h4 id="其实我建议gitee-那玩意在国内，快很多，但是那东西得实名认证，我几天了还没通过，所以等不及了想玩玩。但毕竟是国外的，有时候会很慢。而且，保不齐哪天就制裁你呢。。。"><a href="#其实我建议gitee-那玩意在国内，快很多，但是那东西得实名认证，我几天了还没通过，所以等不及了想玩玩。但毕竟是国外的，有时候会很慢。而且，保不齐哪天就制裁你呢。。。" class="headerlink" title="其实我建议gitee,那玩意在国内，快很多，但是那东西得实名认证，我几天了还没通过，所以等不及了想玩玩。但毕竟是国外的，有时候会很慢。而且，保不齐哪天就制裁你呢。。。"></a><strong>其实我建议gitee,那玩意在国内，快很多，但是那东西得实名认证，我几天了还没通过，所以等不及了想玩玩。但毕竟是国外的，有时候会很慢。而且，保不齐哪天就制裁你呢。。。</strong></h4><h2 id="常见错误"><a href="#常见错误" class="headerlink" title="常见错误"></a>常见错误</h2><ol>
 <li><p>如果出现这个 kex_exchange_identification: Connection closed by remote host<br> Connection closed by 20.205.243.166 port 22<br> fatal: Could not read from remote repository.</p>
 <p> Please make sure you have the correct access rights<br> and the repository exists.</p>
 <p> 错误，很可能是vpn占用了22端口，由于git的ssh也是走的22端口，所以导致冲突，<a href="https://blog.csdn.net/flower_48237/article/details/126967878">参考链接</a></p>
@@ -54,5 +49,10 @@
 <h2 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h2><p>其实很多东西我也不太清楚底层原理，就是有效就行，写这些可能更多是为了庆祝一下吧。</p>
 <p>会查资料很重要，但是很多资料本身就有问题，因此能分别资料的质量，快速找到适合自己的就显得更为难得了。由此可见最近出openai的chatGPT，率先用上它的微软new bing意义真的很大，希望咱们也能早日在国内用上这种好东西。</p>
 ]]></content>
+  </entry>
+  <entry>
+    <title>测试文章</title>
+    <url>/2023/03/11/%E6%B5%8B%E8%AF%95%E6%96%87%E7%AB%A0/</url>
+    <content><![CDATA[]]></content>
   </entry>
 </search>
