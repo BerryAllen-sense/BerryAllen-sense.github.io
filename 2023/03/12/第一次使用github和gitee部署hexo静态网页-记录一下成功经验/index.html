@@ -20,27 +20,27 @@
 
 <script class="next-config" data-name="main" type="application/json">{"hostname":"example.com","root":"/","images":"/images","scheme":"Gemini","darkmode":false,"version":"8.15.0","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12},"copycode":{"enable":false,"style":null},"bookmark":{"enable":false,"color":"#222","save":"auto"},"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"stickytabs":false,"motion":{"enable":true,"async":false,"transition":{"menu_item":"fadeInDown","post_block":"fadeIn","post_header":"fadeInDown","post_body":"fadeInDown","coll_header":"fadeInLeft","sidebar":"fadeInUp"}},"prism":false,"i18n":{"placeholder":"搜索...","empty":"没有找到任何搜索结果：${query}","hits_time":"找到 ${hits} 个搜索结果（用时 ${time} 毫秒）","hits":"找到 ${hits} 个搜索结果"}}</script><script src="/js/config.js"></script>
 
-    <meta name="description" content="看了很多教程，其中有几个多多少少在某一步骤上会报错，并且总觉得没有说清楚，后来看了这个up的视频，一次就好了【新手】使用Github+hexo搭建个人博客_哔哩哔哩_bilibili 这个是他的文档https:&#x2F;&#x2F;moren5483.github.io&#x2F;2022&#x2F;07&#x2F;17&#x2F;github&#x2F; 添加网易云插件看这个【Hexo】Next主题添加全局播放翻页不间断的网易云音乐_Q大帅的博客-CSDN博客">
+    <meta name="description" content="看了很多教程，其中有几个多多少少在某一步骤上会报错，并且总觉得没有说清楚，后来看了这个up的视频，一次就好了(如果是Gitee直接划到文章末尾看视频)【新手】使用Github+hexo搭建个人博客_哔哩哔哩_bilibili 这个是他的文档https:&#x2F;&#x2F;moren5483.github.io&#x2F;2022&#x2F;07&#x2F;17&#x2F;github&#x2F; 添加网易云插件看这个【Hexo】Next主题添加全局播放翻页不间断">
 <meta property="og:type" content="article">
 <meta property="og:title" content="第一次使用github pages 部署hexo静态网页 记录一下成功经验">
-<meta property="og:url" content="http://example.com/2023/03/12/%E7%AC%AC%E4%B8%80%E6%AC%A1%E4%BD%BF%E7%94%A8github-pages-%E9%83%A8%E7%BD%B2hexo%E9%9D%99%E6%80%81%E7%BD%91%E9%A1%B5-%E8%AE%B0%E5%BD%95%E4%B8%80%E4%B8%8B%E6%88%90%E5%8A%9F%E7%BB%8F%E9%AA%8C/index.html">
+<meta property="og:url" content="http://example.com/2023/03/12/%E7%AC%AC%E4%B8%80%E6%AC%A1%E4%BD%BF%E7%94%A8github%E5%92%8Cgitee%E9%83%A8%E7%BD%B2hexo%E9%9D%99%E6%80%81%E7%BD%91%E9%A1%B5-%E8%AE%B0%E5%BD%95%E4%B8%80%E4%B8%8B%E6%88%90%E5%8A%9F%E7%BB%8F%E9%AA%8C/index.html">
 <meta property="og:site_name" content="BerryAllen的博客">
-<meta property="og:description" content="看了很多教程，其中有几个多多少少在某一步骤上会报错，并且总觉得没有说清楚，后来看了这个up的视频，一次就好了【新手】使用Github+hexo搭建个人博客_哔哩哔哩_bilibili 这个是他的文档https:&#x2F;&#x2F;moren5483.github.io&#x2F;2022&#x2F;07&#x2F;17&#x2F;github&#x2F; 添加网易云插件看这个【Hexo】Next主题添加全局播放翻页不间断的网易云音乐_Q大帅的博客-CSDN博客">
+<meta property="og:description" content="看了很多教程，其中有几个多多少少在某一步骤上会报错，并且总觉得没有说清楚，后来看了这个up的视频，一次就好了(如果是Gitee直接划到文章末尾看视频)【新手】使用Github+hexo搭建个人博客_哔哩哔哩_bilibili 这个是他的文档https:&#x2F;&#x2F;moren5483.github.io&#x2F;2022&#x2F;07&#x2F;17&#x2F;github&#x2F; 添加网易云插件看这个【Hexo】Next主题添加全局播放翻页不间断">
 <meta property="og:locale" content="zh_CN">
 <meta property="og:image" content="https://raw.githubusercontent.com/BerryAllen-sense/allen_imgbed/main/202303122246903.png">
 <meta property="og:image" content="https://raw.githubusercontent.com/BerryAllen-sense/allen_imgbed/main/202303122246553.png">
 <meta property="article:published_time" content="2023-03-12T09:14:45.000Z">
-<meta property="article:modified_time" content="2023-03-13T02:36:08.719Z">
+<meta property="article:modified_time" content="2023-03-15T07:45:22.345Z">
 <meta property="article:author" content="BerryAllen">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:image" content="https://raw.githubusercontent.com/BerryAllen-sense/allen_imgbed/main/202303122246903.png">
 
 
-<link rel="canonical" href="http://example.com/2023/03/12/%E7%AC%AC%E4%B8%80%E6%AC%A1%E4%BD%BF%E7%94%A8github-pages-%E9%83%A8%E7%BD%B2hexo%E9%9D%99%E6%80%81%E7%BD%91%E9%A1%B5-%E8%AE%B0%E5%BD%95%E4%B8%80%E4%B8%8B%E6%88%90%E5%8A%9F%E7%BB%8F%E9%AA%8C/">
+<link rel="canonical" href="http://example.com/2023/03/12/%E7%AC%AC%E4%B8%80%E6%AC%A1%E4%BD%BF%E7%94%A8github%E5%92%8Cgitee%E9%83%A8%E7%BD%B2hexo%E9%9D%99%E6%80%81%E7%BD%91%E9%A1%B5-%E8%AE%B0%E5%BD%95%E4%B8%80%E4%B8%8B%E6%88%90%E5%8A%9F%E7%BB%8F%E9%AA%8C/">
 
 
 
-<script class="next-config" data-name="page" type="application/json">{"sidebar":"","isHome":false,"isPost":true,"lang":"zh-CN","comments":true,"permalink":"http://example.com/2023/03/12/%E7%AC%AC%E4%B8%80%E6%AC%A1%E4%BD%BF%E7%94%A8github-pages-%E9%83%A8%E7%BD%B2hexo%E9%9D%99%E6%80%81%E7%BD%91%E9%A1%B5-%E8%AE%B0%E5%BD%95%E4%B8%80%E4%B8%8B%E6%88%90%E5%8A%9F%E7%BB%8F%E9%AA%8C/","path":"2023/03/12/第一次使用github-pages-部署hexo静态网页-记录一下成功经验/","title":"第一次使用github pages 部署hexo静态网页 记录一下成功经验"}</script>
+<script class="next-config" data-name="page" type="application/json">{"sidebar":"","isHome":false,"isPost":true,"lang":"zh-CN","comments":true,"permalink":"http://example.com/2023/03/12/%E7%AC%AC%E4%B8%80%E6%AC%A1%E4%BD%BF%E7%94%A8github%E5%92%8Cgitee%E9%83%A8%E7%BD%B2hexo%E9%9D%99%E6%80%81%E7%BD%91%E9%A1%B5-%E8%AE%B0%E5%BD%95%E4%B8%80%E4%B8%8B%E6%88%90%E5%8A%9F%E7%BB%8F%E9%AA%8C/","path":"2023/03/12/第一次使用github和gitee部署hexo静态网页-记录一下成功经验/","title":"第一次使用github pages 部署hexo静态网页 记录一下成功经验"}</script>
 
 <script class="next-config" data-name="calendar" type="application/json">""</script>
 <title>第一次使用github pages 部署hexo静态网页 记录一下成功经验 | BerryAllen的博客</title>
@@ -116,7 +116,7 @@
       <div class="sidebar-panel-container">
         <!--noindex-->
         <div class="post-toc-wrap sidebar-panel">
-            <div class="post-toc animated"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E7%9C%8B%E4%BA%86%E5%BE%88%E5%A4%9A%E6%95%99%E7%A8%8B%EF%BC%8C%E5%85%B6%E4%B8%AD%E6%9C%89%E5%87%A0%E4%B8%AA%E5%A4%9A%E5%A4%9A%E5%B0%91%E5%B0%91%E5%9C%A8%E6%9F%90%E4%B8%80%E6%AD%A5%E9%AA%A4%E4%B8%8A%E4%BC%9A%E6%8A%A5%E9%94%99%EF%BC%8C%E5%B9%B6%E4%B8%94%E6%80%BB%E8%A7%89%E5%BE%97%E6%B2%A1%E6%9C%89%E8%AF%B4%E6%B8%85%E6%A5%9A%EF%BC%8C%E5%90%8E%E6%9D%A5%E7%9C%8B%E4%BA%86%E8%BF%99%E4%B8%AAup%E7%9A%84%E8%A7%86%E9%A2%91%EF%BC%8C%E4%B8%80%E6%AC%A1%E5%B0%B1%E5%A5%BD%E4%BA%86"><span class="nav-number">1.</span> <span class="nav-text">看了很多教程，其中有几个多多少少在某一步骤上会报错，并且总觉得没有说清楚，后来看了这个up的视频，一次就好了</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E8%BF%99%E4%B8%AA%E6%98%AF%E4%BB%96%E7%9A%84%E6%96%87%E6%A1%A3"><span class="nav-number">2.</span> <span class="nav-text">这个是他的文档</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E6%B7%BB%E5%8A%A0%E7%BD%91%E6%98%93%E4%BA%91%E6%8F%92%E4%BB%B6%E7%9C%8B%E8%BF%99%E4%B8%AA"><span class="nav-number">3.</span> <span class="nav-text">添加网易云插件看这个</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%85%A8%E5%B1%80%E6%92%AD%E6%94%BE%E8%83%8C%E6%99%AF%E9%9F%B3%E4%B9%90%E7%9C%8B%E8%BF%99%E4%B8%AA"><span class="nav-number">4.</span> <span class="nav-text">全局播放背景音乐看这个</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E8%AF%B4%E8%AF%B4%E6%8F%92%E5%85%A5%E5%9B%BE%E7%89%87%E7%9A%84%E4%BA%8B%E6%83%85"><span class="nav-number">5.</span> <span class="nav-text">说说插入图片的事情</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E6%88%91%E7%94%A8%E7%9A%84%E7%9B%B8%E5%85%B3%E5%B7%A5%E5%85%B7%E6%9C%89-PicGo%E3%80%81typora"><span class="nav-number">5.1.</span> <span class="nav-text">我用的相关工具有:PicGo、typora.</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#%E5%85%B6%E5%AE%9E%E6%88%91%E5%BB%BA%E8%AE%AEgitee-%E9%82%A3%E7%8E%A9%E6%84%8F%E5%9C%A8%E5%9B%BD%E5%86%85%EF%BC%8C%E5%BF%AB%E5%BE%88%E5%A4%9A%EF%BC%8C%E4%BD%86%E6%98%AF%E9%82%A3%E4%B8%9C%E8%A5%BF%E5%BE%97%E5%AE%9E%E5%90%8D%E8%AE%A4%E8%AF%81%EF%BC%8C%E6%88%91%E5%87%A0%E5%A4%A9%E4%BA%86%E8%BF%98%E6%B2%A1%E9%80%9A%E8%BF%87%EF%BC%8C%E6%89%80%E4%BB%A5%E7%AD%89%E4%B8%8D%E5%8F%8A%E4%BA%86%E6%83%B3%E7%8E%A9%E7%8E%A9%E3%80%82%E4%BD%86github%E6%AF%95%E7%AB%9F%E6%98%AF%E8%80%81%E7%BE%8E%E7%9A%84%EF%BC%8C%E6%9C%89%E6%97%B6%E5%80%99%E4%BC%9A%E5%BE%88%E6%85%A2%E3%80%82%E8%80%8C%E4%B8%94%EF%BC%8C%E4%BF%9D%E4%B8%8D%E9%BD%90%E5%93%AA%E5%A4%A9%E5%B0%B1%E5%88%B6%E8%A3%81%E4%BD%A0%E5%91%A2%E3%80%82%E3%80%82%E3%80%82"><span class="nav-number">5.1.1.</span> <span class="nav-text">其实我建议gitee,那玩意在国内，快很多，但是那东西得实名认证，我几天了还没通过，所以等不及了想玩玩。但github毕竟是老美的，有时候会很慢。而且，保不齐哪天就制裁你呢。。。</span></a></li></ol></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%B8%B8%E8%A7%81%E9%94%99%E8%AF%AF"><span class="nav-number">6.</span> <span class="nav-text">常见错误</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E6%80%BB%E7%BB%93"><span class="nav-number">7.</span> <span class="nav-text">总结</span></a></li></ol></div>
+            <div class="post-toc animated"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E7%9C%8B%E4%BA%86%E5%BE%88%E5%A4%9A%E6%95%99%E7%A8%8B%EF%BC%8C%E5%85%B6%E4%B8%AD%E6%9C%89%E5%87%A0%E4%B8%AA%E5%A4%9A%E5%A4%9A%E5%B0%91%E5%B0%91%E5%9C%A8%E6%9F%90%E4%B8%80%E6%AD%A5%E9%AA%A4%E4%B8%8A%E4%BC%9A%E6%8A%A5%E9%94%99%EF%BC%8C%E5%B9%B6%E4%B8%94%E6%80%BB%E8%A7%89%E5%BE%97%E6%B2%A1%E6%9C%89%E8%AF%B4%E6%B8%85%E6%A5%9A%EF%BC%8C%E5%90%8E%E6%9D%A5%E7%9C%8B%E4%BA%86%E8%BF%99%E4%B8%AAup%E7%9A%84%E8%A7%86%E9%A2%91%EF%BC%8C%E4%B8%80%E6%AC%A1%E5%B0%B1%E5%A5%BD%E4%BA%86-%E5%A6%82%E6%9E%9C%E6%98%AFGitee%E7%9B%B4%E6%8E%A5%E5%88%92%E5%88%B0%E6%96%87%E7%AB%A0%E6%9C%AB%E5%B0%BE%E7%9C%8B%E8%A7%86%E9%A2%91"><span class="nav-number">1.</span> <span class="nav-text">看了很多教程，其中有几个多多少少在某一步骤上会报错，并且总觉得没有说清楚，后来看了这个up的视频，一次就好了(如果是Gitee直接划到文章末尾看视频)</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E8%BF%99%E4%B8%AA%E6%98%AF%E4%BB%96%E7%9A%84%E6%96%87%E6%A1%A3"><span class="nav-number">2.</span> <span class="nav-text">这个是他的文档</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E6%B7%BB%E5%8A%A0%E7%BD%91%E6%98%93%E4%BA%91%E6%8F%92%E4%BB%B6%E7%9C%8B%E8%BF%99%E4%B8%AA"><span class="nav-number">3.</span> <span class="nav-text">添加网易云插件看这个</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%85%A8%E5%B1%80%E6%92%AD%E6%94%BE%E8%83%8C%E6%99%AF%E9%9F%B3%E4%B9%90%E7%9C%8B%E8%BF%99%E4%B8%AA"><span class="nav-number">4.</span> <span class="nav-text">全局播放背景音乐看这个</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E8%AF%B4%E8%AF%B4%E6%8F%92%E5%85%A5%E5%9B%BE%E7%89%87%E7%9A%84%E4%BA%8B%E6%83%85"><span class="nav-number">5.</span> <span class="nav-text">说说插入图片的事情</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E6%88%91%E7%94%A8%E7%9A%84%E7%9B%B8%E5%85%B3%E5%B7%A5%E5%85%B7%E6%9C%89-PicGo%E3%80%81typora"><span class="nav-number">5.1.</span> <span class="nav-text">我用的相关工具有:PicGo、typora.</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#%E5%85%B6%E5%AE%9E%E6%88%91%E5%BB%BA%E8%AE%AEgitee-%E9%82%A3%E7%8E%A9%E6%84%8F%E5%9C%A8%E5%9B%BD%E5%86%85%EF%BC%8C%E5%BF%AB%E5%BE%88%E5%A4%9A%EF%BC%8C%E4%BD%86%E6%98%AF%E9%82%A3%E4%B8%9C%E8%A5%BF%E5%BE%97%E5%AE%9E%E5%90%8D%E8%AE%A4%E8%AF%81%EF%BC%8C%E6%88%91%E5%87%A0%E5%A4%A9%E4%BA%86%E8%BF%98%E6%B2%A1%E9%80%9A%E8%BF%87%EF%BC%8C%E6%89%80%E4%BB%A5%E7%AD%89%E4%B8%8D%E5%8F%8A%E4%BA%86%E6%83%B3%E7%8E%A9%E7%8E%A9%E3%80%82%E4%BD%86github%E6%AF%95%E7%AB%9F%E6%98%AF%E8%80%81%E7%BE%8E%E7%9A%84%EF%BC%8C%E6%9C%89%E6%97%B6%E5%80%99%E4%BC%9A%E5%BE%88%E6%85%A2%E3%80%82%E8%80%8C%E4%B8%94%EF%BC%8C%E4%BF%9D%E4%B8%8D%E9%BD%90%E5%93%AA%E5%A4%A9%E5%B0%B1%E5%88%B6%E8%A3%81%E4%BD%A0%E5%91%A2%E3%80%82%E3%80%82%E3%80%82"><span class="nav-number">5.1.1.</span> <span class="nav-text">其实我建议gitee,那玩意在国内，快很多，但是那东西得实名认证，我几天了还没通过，所以等不及了想玩玩。但github毕竟是老美的，有时候会很慢。而且，保不齐哪天就制裁你呢。。。</span></a></li></ol></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%B8%B8%E8%A7%81%E9%94%99%E8%AF%AF"><span class="nav-number">6.</span> <span class="nav-text">常见错误</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#gitee%E5%A6%82%E4%BD%95%E9%83%A8%E7%BD%B2%EF%BC%9F"><span class="nav-number">7.</span> <span class="nav-text">gitee如何部署？</span></a></li></ol></div>
         </div>
         <!--/noindex-->
 
@@ -167,7 +167,7 @@
   
 
   <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="zh-CN">
-    <link itemprop="mainEntityOfPage" href="http://example.com/2023/03/12/%E7%AC%AC%E4%B8%80%E6%AC%A1%E4%BD%BF%E7%94%A8github-pages-%E9%83%A8%E7%BD%B2hexo%E9%9D%99%E6%80%81%E7%BD%91%E9%A1%B5-%E8%AE%B0%E5%BD%95%E4%B8%80%E4%B8%8B%E6%88%90%E5%8A%9F%E7%BB%8F%E9%AA%8C/">
+    <link itemprop="mainEntityOfPage" href="http://example.com/2023/03/12/%E7%AC%AC%E4%B8%80%E6%AC%A1%E4%BD%BF%E7%94%A8github%E5%92%8Cgitee%E9%83%A8%E7%BD%B2hexo%E9%9D%99%E6%80%81%E7%BD%91%E9%A1%B5-%E8%AE%B0%E5%BD%95%E4%B8%80%E4%B8%8B%E6%88%90%E5%8A%9F%E7%BB%8F%E9%AA%8C/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="image" content="/images/avatar.gif">
@@ -203,7 +203,7 @@
         <i class="far fa-calendar-check"></i>
       </span>
       <span class="post-meta-item-text">更新于</span>
-      <time title="修改时间：2023-03-13 10:36:08" itemprop="dateModified" datetime="2023-03-13T10:36:08+08:00">2023-03-13</time>
+      <time title="修改时间：2023-03-15 15:45:22" itemprop="dateModified" datetime="2023-03-15T15:45:22+08:00">2023-03-15</time>
     </span>
 
   
@@ -216,7 +216,7 @@
     
     
     <div class="post-body" itemprop="articleBody">
-        <h2 id="看了很多教程，其中有几个多多少少在某一步骤上会报错，并且总觉得没有说清楚，后来看了这个up的视频，一次就好了"><a href="#看了很多教程，其中有几个多多少少在某一步骤上会报错，并且总觉得没有说清楚，后来看了这个up的视频，一次就好了" class="headerlink" title="看了很多教程，其中有几个多多少少在某一步骤上会报错，并且总觉得没有说清楚，后来看了这个up的视频，一次就好了"></a>看了很多教程，其中有几个多多少少在某一步骤上会报错，并且总觉得没有说清楚，后来看了这个up的视频，一次就好了</h2><p><a target="_blank" rel="noopener" href="https://www.bilibili.com/video/BV1gG411H78j/?spm_id_from=333.337.search-card.all.click&vd_source=1a6b1228fadbe92621fbc56c7c975626">【新手】使用Github+hexo搭建个人博客_哔哩哔哩_bilibili</a></p>
+        <h2 id="看了很多教程，其中有几个多多少少在某一步骤上会报错，并且总觉得没有说清楚，后来看了这个up的视频，一次就好了-如果是Gitee直接划到文章末尾看视频"><a href="#看了很多教程，其中有几个多多少少在某一步骤上会报错，并且总觉得没有说清楚，后来看了这个up的视频，一次就好了-如果是Gitee直接划到文章末尾看视频" class="headerlink" title="看了很多教程，其中有几个多多少少在某一步骤上会报错，并且总觉得没有说清楚，后来看了这个up的视频，一次就好了(如果是Gitee直接划到文章末尾看视频)"></a>看了很多教程，其中有几个多多少少在某一步骤上会报错，并且总觉得没有说清楚，后来看了这个up的视频，一次就好了(如果是Gitee直接划到文章末尾看视频)</h2><p><a target="_blank" rel="noopener" href="https://www.bilibili.com/video/BV1gG411H78j/?spm_id_from=333.337.search-card.all.click&vd_source=1a6b1228fadbe92621fbc56c7c975626">【新手】使用Github+hexo搭建个人博客_哔哩哔哩_bilibili</a></p>
 <h2 id="这个是他的文档"><a href="#这个是他的文档" class="headerlink" title="这个是他的文档"></a>这个是他的文档</h2><p><a target="_blank" rel="noopener" href="https://moren5483.github.io/2022/07/17/github/">https://moren5483.github.io/2022/07/17/github/</a></p>
 <h2 id="添加网易云插件看这个"><a href="#添加网易云插件看这个" class="headerlink" title="添加网易云插件看这个"></a>添加网易云插件看这个</h2><p><a target="_blank" rel="noopener" href="https://blog.csdn.net/Qxiaofei_/article/details/123072610">【Hexo】Next主题添加全局播放翻页不间断的网易云音乐_Q大帅的博客-CSDN博客</a></p>
 <p>这个 “三、修改属性”这段好像没啥用，没有这个也一样</p>
@@ -241,8 +241,8 @@
 </li>
 </ol>
 <p><img src="https://raw.githubusercontent.com/BerryAllen-sense/allen_imgbed/main/202303122246553.png" alt="image-20230312182807481"></p>
-<h2 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h2><p>其实很多东西我也不太清楚底层原理，就是有效就行，写这些可能更多是为了庆祝一下吧。</p>
-<p>会查资料很重要，但是很多资料本身就有问题，因此能分别资料的质量，快速找到适合自己的就显得更为难得了。由此可见最近出openai的chatGPT，率先用上它的微软new bing意义真的很大，希望咱们也能早日在国内用上这种好东西。</p>
+<h2 id="gitee如何部署？"><a href="#gitee如何部署？" class="headerlink" title="gitee如何部署？"></a>gitee如何部署？</h2><p>看这个就行 </p>
+<iframe src="//player.bilibili.com/player.html?aid=992704910&bvid=BV1ts4y1f7Gu&cid=1028967933&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
 
     </div>
 
@@ -274,10 +274,13 @@
 
           <div class="post-nav">
             <div class="post-nav-item">
+                <a href="/2023/03/12/%E7%AC%AC%E4%B8%80%E6%AC%A1%E4%BD%BF%E7%94%A8github-pages-%E9%83%A8%E7%BD%B2hexo%E9%9D%99%E6%80%81%E7%BD%91%E9%A1%B5-%E8%AE%B0%E5%BD%95%E4%B8%80%E4%B8%8B%E6%88%90%E5%8A%9F%E7%BB%8F%E9%AA%8C/" rel="prev" title="第一次使用github pages 部署hexo静态网页 记录一下成功经验">
+                  <i class="fa fa-chevron-left"></i> 第一次使用github pages 部署hexo静态网页 记录一下成功经验
+                </a>
             </div>
             <div class="post-nav-item">
-                <a href="/2023/03/12/%E7%AC%AC%E4%B8%80%E6%AC%A1%E4%BD%BF%E7%94%A8github%E5%92%8Cgitee%E9%83%A8%E7%BD%B2hexo%E9%9D%99%E6%80%81%E7%BD%91%E9%A1%B5-%E8%AE%B0%E5%BD%95%E4%B8%80%E4%B8%8B%E6%88%90%E5%8A%9F%E7%BB%8F%E9%AA%8C/" rel="next" title="第一次使用github pages 部署hexo静态网页 记录一下成功经验">
-                  第一次使用github pages 部署hexo静态网页 记录一下成功经验 <i class="fa fa-chevron-right"></i>
+                <a href="/2023/03/13/3%E6%9C%8813%E6%97%A5%E4%B8%8E%E5%AE%B6%E4%BA%BA%E9%80%9A%E8%AF%9D%E6%9C%89%E6%84%9F/" rel="next" title="3月13日与家人通话有感">
+                  3月13日与家人通话有感 <i class="fa fa-chevron-right"></i>
                 </a>
             </div>
           </div>
