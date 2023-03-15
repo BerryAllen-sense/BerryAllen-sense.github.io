@@ -3,7 +3,7 @@
   <entry>
     <title>3月13日与家人通话有感</title>
     <url>/2023/03/13/3%E6%9C%8813%E6%97%A5%E4%B8%8E%E5%AE%B6%E4%BA%BA%E9%80%9A%E8%AF%9D%E6%9C%89%E6%84%9F/</url>
-    <content><![CDATA[<p>  今天一整天都没啥学习的欲望，只想着搞事情，看来搭博客这股子新鲜感还没过去。也就上午看了会访问控制列表的介绍，下午老师甩给我一篇40多页的全英文论文，说是照着这个复现就好了，我这。。。。。。怪不得说看这篇论文就够了，原来一篇抵人家几篇。但是我没看。</p>
+    <content><![CDATA[<p>  今天一整天都没啥学习的欲望，只想着搞事情，看来搭博客这股子新鲜感还没过去。<span id="more"></span>也就上午看了会访问控制列表的介绍，下午老师甩给我一篇40多页的全英文论文，说是照着这个复现就好了，我这。。。。。。怪不得说看这篇论文就够了，原来一篇抵人家几篇。但是我没看。</p>
 <p>  下午在图书馆刷视频，完全不想学，于是4点多回宿舍了。回来也是百无聊赖，无非就是和室友聊聊天，晚上打打游戏，本来想叫人出去打麻将，结果也忘记了，搞的人家还问我咋没信了，好尴尬。。。</p>
 <p>  到9点才想起来周末没给家里人打电话，于是补了一个。这一打就是一个小时。</p>
 <p>  聊了聊家长里短，还有我考研的事情，谈了谈我的未来，家里每个人的发展，还有一些亲戚。唉，最大的感受就是时间太快了，时间趁我没注意就让我到了该成熟的年纪。感觉自己完全还没准备好。二战呀、工作呀、成家呀什么的，之前总觉得还早，现在想来，确实没几年了。</p>
@@ -12,6 +12,12 @@
 <p>  唉，现在越来越喜欢叹气了，希望自己以后开心点吧，加油！</p>
 <p>2023年3月13日</p>
 ]]></content>
+      <categories>
+        <category>心情随笔</category>
+      </categories>
+      <tags>
+        <tag>感伤</tag>
+      </tags>
   </entry>
   <entry>
     <title>第一次使用github和gitee部署hexo静态网页 记录一下成功经验</title>
@@ -41,8 +47,18 @@
 </li>
 </ol>
 <p><img src="https://raw.githubusercontent.com/BerryAllen-sense/allen_imgbed/main/202303122246553.png" alt="image-20230312182807481"></p>
-<h2 id="gitee如何部署？"><a href="#gitee如何部署？" class="headerlink" title="gitee如何部署？"></a>gitee如何部署？</h2><p>看这个就行 </p>
+<h2 id="gitee如何部署？"><a href="#gitee如何部署？" class="headerlink" title="gitee如何部署？"></a>gitee如何部署？</h2><p>看这个就行 (个人有个小<a href="#%E6%8F%90%E9%86%92">提醒</a>)</p>
 <iframe src="//player.bilibili.com/player.html?aid=992704910&bvid=BV1ts4y1f7Gu&cid=1028967933&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
+
+<h3 id="提醒"><a href="#提醒" class="headerlink" title="提醒"></a><div id="提醒">提醒</div></h3><p>在gitee上更新博客部署之后，一定要在gitee pages里面手动更新，这样访问网站才会看见更新后的内容，因为gitee免费版不会自动更新</p>
+<p><img src="https://raw.githubusercontent.com/BerryAllen-sense/allen_imgbed/main/202303151640490.png" alt="image-20230315164004322"></p>
 ]]></content>
+      <categories>
+        <category>博客搭建类</category>
+      </categories>
+      <tags>
+        <tag>hexo</tag>
+        <tag>next主题</tag>
+      </tags>
   </entry>
 </search>
