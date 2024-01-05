@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2023-03-15T09:28:10.033Z</updated>
+  <updated>2024-01-05T09:06:11.629Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -15,6 +15,32 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Win11右键默认显示更多以及添加到右键菜单栏</title>
+    <link href="http://example.com/2024/01/05/Win11%E5%8F%B3%E9%94%AE%E9%BB%98%E8%AE%A4%E6%98%BE%E7%A4%BA%E6%9B%B4%E5%A4%9A%E4%BB%A5%E5%8F%8A%E6%B7%BB%E5%8A%A0%E5%88%B0%E5%8F%B3%E9%94%AE%E8%8F%9C%E5%8D%95%E6%A0%8F/"/>
+    <id>http://example.com/2024/01/05/Win11%E5%8F%B3%E9%94%AE%E9%BB%98%E8%AE%A4%E6%98%BE%E7%A4%BA%E6%9B%B4%E5%A4%9A%E4%BB%A5%E5%8F%8A%E6%B7%BB%E5%8A%A0%E5%88%B0%E5%8F%B3%E9%94%AE%E8%8F%9C%E5%8D%95%E6%A0%8F/</id>
+    <published>2024-01-05T09:01:32.000Z</published>
+    <updated>2024-01-05T09:06:11.629Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="win11右键默认显示更多以及添加到右键菜单栏"><a href="#win11右键默认显示更多以及添加到右键菜单栏" class="headerlink" title="win11右键默认显示更多以及添加到右键菜单栏"></a>win11右键默认显示更多以及添加到右键菜单栏</h1><p>这两篇文章理说的方法亲测有效</p><p><a href="https://zhuanlan.zhihu.com/p/626355083">实测有效：Win11右键默认显示更多设置教程！ - 知乎 (zhihu.com)</a></p><p><a href="https://www.51cto.com/article/592942.html">如何将任何应用程序添加到Windows 10中的右键单击菜单-将软件添加到右键 (51cto.com)</a></p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h1 id=&quot;win11右键默认显示更多以及添加到右键菜单栏&quot;&gt;&lt;a href=&quot;#win11右键默认显示更多以及添加到右键菜单栏&quot; class=&quot;headerlink&quot; title=&quot;win11右键默认显示更多以及添加到右键菜单栏&quot;&gt;&lt;/a&gt;win11右键默认显示更多以及添加</summary>
+      
+    
+    
+    
+    <category term="实用技巧" scheme="http://example.com/categories/%E5%AE%9E%E7%94%A8%E6%8A%80%E5%B7%A7/"/>
+    
+    
+    <category term="win11" scheme="http://example.com/tags/win11/"/>
+    
+    <category term="右键菜单" scheme="http://example.com/tags/%E5%8F%B3%E9%94%AE%E8%8F%9C%E5%8D%95/"/>
+    
+  </entry>
   
   <entry>
     <title>第一次使用github和gitee部署hexo静态网页 记录一下成功经验</title>
